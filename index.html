@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiesta Patronal Caserío San José</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="galeria san jose 01.jpeg">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Fiesta Patronal Caserío San José</h1>
+    </header>
+
+    <!-- Banner Slider -->
+    <section id="banner-slider">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="galeria san jose 01.jpeg" alt="Banner 1"><div class="caption">Bienvenidos a la Fiesta</div></div>
+                <div class="slide"><img src="galeria san jose 02.jpeg" alt="Banner 2"><div class="caption">Diversión y Alegría</div></div>
+                <div class="slide"><img src="galeria san jose 01.jpeg" alt="Banner 1"><div class="caption">Bienvenidos a la Fiesta</div></div>
+                <div class="slide"><img src="encanto corason02.jpg" alt="Banner 2"><div class="caption">Diversión y Alegría</div></div>
+                <div class="slide"><img src="encanto de corazon.jpg" alt="Banner 1"><div class="caption">Bienvenidos a la Fiesta</div></div>
+                <div class="slide"><img src="galeria san jose 02.jpeg" alt="Banner 2"><div class="caption">Diversión y Alegría</div></div>
+                <!-- Agrega más banners según sea necesario -->
+            </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- Image Gallery -->
+    <section id="gallery">
+        <h2>Galería de Imágenes</h2>
+        <div class="gallery-container">
+            <img src="galeria san jose 01.jpeg" alt="Imagen 1">
+            <img src="galeria san jose 02.jpeg" alt="Imagen 2">
+            <img src="galeria san jose 01.jpeg" alt="Imagen 1">
+            <img src="galeria san jose 02.jpeg" alt="Imagen 2">
+            <!-- Agrega más imágenes según sea necesario -->
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contáctanos</h2>
+        <form id="contact-form" action="https://wa.me/902816318" method="get">
+            <label for="contact-info">Número de DNI o Celular:</label>
+            <input type="text" id="contact-info" name="contact-info" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <a href="https://www.google.com/maps" target="_blank">Ubicación</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
